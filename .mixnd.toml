@@ -1,0 +1,19 @@
+[app]
+name = "super-duper"
+domain = "super-duper.mixnd.com"
+
+[infrastructure]
+vm = "localhost"
+coolify_url = "https://coolify.mixnd.com"
+coolify_app_uuid = "u044sw88ggwcwkw8wcg8k08g"
+
+[github]
+repo = "mymixnd/super-duper"
+repo_url = "https://github.com/mymixnd/super-duper"
+
+[supabase]
+project_ref = "xqktmmycuvuteqhotnhh"
+project_url = "https://xqktmmycuvuteqhotnhh.supabase.co"
+
+[doppler]
+project = "super-duper"
