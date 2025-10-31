@@ -1,0 +1,26 @@
+# mixnd configuration file
+# This file is created by mixnd CLI - DO NOT edit manually
+# Template variables are replaced during app creation
+
+[app]
+name = "{{APP_NAME}}"
+type = "sveltekit"
+framework_version = "2.x"
+
+[infrastructure]
+target_vm = "{{TARGET_VM}}"  # e.g., "mixnd-main" or "mixnd-worker"
+
+[deployment]
+coolify_app_uuid = "{{COOLIFY_APP_UUID}}"
+domain = "{{APP_DOMAIN}}"  # e.g., "my-blog.mixnd.com"
+port = 3000
+
+[supabase]
+project_id = "{{SUPABASE_PROJECT_ID}}"
+project_ref = "{{SUPABASE_PROJECT_REF}}"
+url = "{{SUPABASE_URL}}"
+
+[doppler]
+project = "{{DOPPLER_PROJECT}}"  # Same as app name
+config_dev = "dev"
+config_prd = "prd"
